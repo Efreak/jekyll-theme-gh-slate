@@ -1,8 +1,8 @@
 ---
 name : "gh-slate"
-website :  "http://www.jonathantsai.com"
-description :  "A light-on-dark hacker enthusiast theme for Jekyll + Jekyll-BootStrap. Uses YUI CSS and JavaScript"
+website :  "https://github.com/jasoncostello/slate"
+description :  "Slate is responsive theme for GitHub Pages"
 author:
-  name : "Jonathan Tsai"
-  email : "akajontsai-devel@yahoo.com"
-  website : "http://www.jonathantsai.com"
+  name : "Jason Costello"
+  email : "jason@github.com"
+  website : "https://github.com/jasoncostello/slate"
