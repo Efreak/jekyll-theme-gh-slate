@@ -143,9 +143,11 @@ img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
+//annoying shit...
+//  padding: 5px;
+//  margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
+  vertical-align: middle;
 
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
@@ -158,6 +160,7 @@ pre, code {
   width: 100%;
   color: #222;
   background-color: #fff;
+  white-space: pre;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
@@ -254,7 +257,7 @@ form {
 }
 
 img {
-  width: 100%;
+//  width: 100%;
   max-width: 100%;
 }
 
@@ -268,7 +271,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 850px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -319,7 +322,7 @@ Full-Width Styles
 
 #downloads {
   position: absolute;
-  width: 210px;
+  width: 300px;
   z-index: 10;
   bottom: -40px;
   right: 0;
@@ -348,12 +351,27 @@ Full-Width Styles
   margin-left: 10px;
 }
 
+.npm_download_link {
+  display: block;
+  float: right;
+  width: 90px;
+  height:70px;
+  text-indent: -5000px;
+  overflow: hidden;
+  background: url(../img/sprite_download_npm.png) no-repeat bottom left;
+  margin-left:3px;
+}
+
 .zip_download_link:hover {
   background: url(../img/sprite_download.png) no-repeat top left;
 }
 
 .tar_download_link:hover {
   background: url(../img/sprite_download.png) no-repeat top right;
+}
+
+.npm_download_link:hover {
+  background: url(../img/sprite_download_npm.png) no-repeat top left;
 }
 
 #main_content_wrap {

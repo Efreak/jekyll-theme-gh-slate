@@ -2,12 +2,21 @@
 layout: page
 title: Hello World!
 tagline: Supporting tagline
+group: content
 ---
 {% include JB/setup %}
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+
+## Installation
+
+    $ rake theme:install git="https://github.com/Efreak/jekyll-theme-gh-slate"
+    ...
+    => Want to switch themes now? [y/n] y
+
+Now configure it as shown below:
 
 ## Update Author Attributes
 
@@ -18,10 +27,14 @@ In `_config.yml` remember to specify your own data:
     author :
       name : Name Lastname
       email : blah@email.test
-      github : username
       twitter : username
+      github : username
+      github_project : jekyll-theme-gh-slate
+      npm_name : example
 
 The theme should reference these variables whenever needed.
+If you set github_project, it will fix the url in the blue *view on github* banner, and will provide download links at the top of the page.
+If you set the npm_name as well as github_project, it will also display a link to that project on npmjs.com/project/npm_name
     
 ## Sample Posts
 
