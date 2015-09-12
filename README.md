@@ -29,6 +29,9 @@ author :
   twitter : username
   github : username
   github_project : jekyll-theme-gh-slate
+favicon: somepath
 ```
 
 `github_project` is the part of the url that comes after your username.
+
+`somepath` for favicon can be relative or absolute. In other words, `favicon.png`, `/favicon.png` and `//raw.githubusercontent.com/user/repo/gh-pages/favicon.png` are equally valid. Favicon can also be specified in the page.
